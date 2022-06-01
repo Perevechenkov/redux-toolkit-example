@@ -1,6 +1,6 @@
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 
-import { login, logout } from './authSlice';
+import { login } from '../store/authSlice';
 
 import classes from './Auth.module.scss';
 

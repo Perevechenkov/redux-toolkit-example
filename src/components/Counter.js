@@ -6,7 +6,7 @@ import {
   decrement,
   incrementByAmount,
   toggleCounter,
-} from './counterSlice';
+} from '../store/counterSlice';
 
 export default function Counter(props) {
   const counterValue = useSelector(state => state.counter.value);
